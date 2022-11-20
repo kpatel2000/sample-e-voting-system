@@ -367,24 +367,24 @@ contract Ballot {
             isAlive: true,
             votedTo: uint256(0)
         });
-        // voter[uint256(532122269467)] = Types.Voter({
-        //     name: "Ramesh",
-        //     aadharNumber: uint256(532122269467),
-        //     age: uint8(37),
-        //     stateCode: uint8(10),
-        //     constituencyCode: uint8(1),
-        //     isAlive: false,
-        //     votedTo: uint256(0)
-        // });
-        // voter[uint256(468065932286)] = Types.Voter({
-        //     name: "Mahesh",
-        //     aadharNumber: uint256(468065932286),
-        //     age: uint8(26),
-        //     stateCode: uint8(10),
-        //     constituencyCode: uint8(1),
-        //     isAlive: true,
-        //     votedTo: uint256(0)
-        // });
+        voter[uint256(532122269467)] = Types.Voter({
+            name: "Ramesh",
+            aadharNumber: uint256(532122269467),
+            age: uint8(37),
+            stateCode: uint8(10),
+            constituencyCode: uint8(1),
+            isAlive: false,
+            votedTo: uint256(0)
+        });
+        voter[uint256(468065932286)] = Types.Voter({
+            name: "Mahesh",
+            aadharNumber: uint256(468065932286),
+            age: uint8(26),
+            stateCode: uint8(10),
+            constituencyCode: uint8(1),
+            isAlive: true,
+            votedTo: uint256(0)
+        });
         // voter[uint256(809961147437)] = Types.Voter({
         //     name: "Krishna",
         //     aadharNumber: uint256(809961147437),
@@ -413,15 +413,15 @@ contract Ballot {
         //     votedTo: uint256(0)
         // });
         // // Bihar
-        // voter[uint256(908704156902)] = Types.Voter({
-        //     name: "Pushkar Kumar",
-        //     aadharNumber: uint256(908704156902),
-        //     age: uint8(25),
-        //     stateCode: uint8(11),
-        //     constituencyCode: uint8(1),
-        //     isAlive: true,
-        //     votedTo: uint256(0)
-        // });
+        voter[uint256(908704156902)] = Types.Voter({
+            name: "Pushkar Kumar",
+            aadharNumber: uint256(908704156902),
+            age: uint8(25),
+            stateCode: uint8(11),
+            constituencyCode: uint8(1),
+            isAlive: true,
+            votedTo: uint256(0)
+        });
         // voter[uint256(778925466180)] = Types.Voter({
         //     name: "Kunal Kumar",
         //     aadharNumber: uint256(778925466180),

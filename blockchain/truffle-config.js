@@ -1,5 +1,5 @@
 var HDWalletProvider = require("@truffle/hdwallet-provider");
-const mnemonic = "YOUR_WALLET_PRIVATE_KEY";
+const mnemonic = "boss voice relief soul work blood sustain pulp amused gown warfare december";
 
 module.exports = {
   plugins: ["truffle-security"],
@@ -7,20 +7,20 @@ module.exports = {
   contracts_build_directory: "./build",
   migrations_directory: "./migrations",
   networks: {
-    rinkeby: {
-      provider: () =>
-        new HDWalletProvider({
-          privateKeys: [mnemonic],
-          providerOrUrl: "https://rinkeby.infura.io/v3/YOUR_INFURA_PROJECT_ID",
-          numberOfAddresses: 1,
-        }),
-      network_id: 4,
-      gas: 10000000, // Max is 10000000
-      confirmations: 2,
-      timeoutBlocks: 200,
-      skipDryRun: true,
-      networkCheckTimeout: 1000000,
-    },
+    // goerli: {
+    //   provider: () =>
+    //     new HDWalletProvider({
+    //       privateKeys: [mnemonic],
+    //       providerOrUrl: "https://goerli.infura.io/v3/401ad4f2dbcd4d6cb0e748af0a4036f4",
+    //       numberOfAddresses: 1,
+    //     }),
+    //   network_id: 4,
+    //   gas: 10000000, // Max is 10000000
+    //   confirmations: 2,
+    //   timeoutBlocks: 200,
+    //   skipDryRun: true,
+    //   networkCheckTimeout: 1000000,
+    // },
     development: {
       host: "127.0.0.1",
       port: 7545,

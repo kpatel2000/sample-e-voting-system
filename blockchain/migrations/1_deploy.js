@@ -24,7 +24,7 @@ module.exports = function (deployer, network) {
   if (network == "development") {
     deployer.deploy(Types);
     deployer.link(Types, Ballot);
-    deployer.deploy(Ballot, 1649250142, 1662550200);
+    deployer.deploy(Ballot, 1668963030, 1669049430);
     // convert the time epoch of when voting ends & to UTC
     // START => Wednesday, 6 April 2022 18:32:22
     // END => Wednesday, 7 September 2022 17:00:00
@@ -32,6 +32,6 @@ module.exports = function (deployer, network) {
     // For all other networks like live & test networks
     deployer.deploy(Types);
     deployer.link(Types, Ballot);
-    deployer.deploy(Ballot, 1649250142, 1662550200);
+    deployer.deploy(Ballot, 1668963030, 1669049430);
   }
 };
